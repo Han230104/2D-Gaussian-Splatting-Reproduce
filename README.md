@@ -3,6 +3,7 @@ This repository contains the unofficial implementation of the paper ["2D Gaussia
 # Installation
 ### Clone the repository 
 ```
+# SSH
 git clone git@github.com:Han230104/2D-Gaussian-Splatting-Reproduce.git
 ```
 or
@@ -12,7 +13,7 @@ git clone https://github.com/Han230104/2D-Gaussian-Splatting-Reproduce.git
 ```
 ### Create an anaconda environment
 ```
-cd 2d-gaussian-splatting-reproduce
+cd 2D-Gaussian-Splatting-Reproduce
 conda env create --file environment.yml
 conda activate 2dgs
 ```
@@ -22,19 +23,23 @@ Create a folder to store the dataset
 mkdir datasets
 ```
 The MipNeRF360 scenes are hosted by the paper authors [here](https://jonbarron.info/mipnerf360/).
+
+After downloading the dataset, you should organize your data like this:
 ```
-- datasets
-  - bicycle
-  - bonsai
-  - counter
-  - flowers
-  - garden
-  - kitchen
-  - playroom
-  - stump
-  - treehill
+- 2D-Gaussian-Splatting-Reproduce
+  - datasets
+    - bicycle
+    - bonsai
+    - counter
+    - flowers
+    - garden
+    - kitchen
+    - playroom
+    - stump
+    - treehill
 ```
 ### Training and Evaluation
+Run the training and evaluation script
 ```
 # Mip-NeRF 360 dataset
 python run_mipnerf360.py
