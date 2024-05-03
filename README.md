@@ -46,12 +46,12 @@ python run_mipnerf360.py
 ```
 ### Results
 You will get similar results like this on Mip-NeRF 360 dataset:
-##### Ourdoor
+#### Ourdoor
 | Model    | PSNR ↑     | SSIM ↑    | LIPPS ↓|  
 | ------   | ------     | ------    | ------ |  
 | 2DGS     | 24.33      |  0.709    | 0.284  |  
 | Ours     | 24.25      |  0.711    | 0.278  |   
-##### Indoor
+#### Indoor
 | Model    | PSNR ↑     | SSIM ↑    | LIPPS ↓|  
 | ------   | ------     | ------    | ------ |  
 | 2DGS     | 30.39      |  0.924    | 0.182  |  
