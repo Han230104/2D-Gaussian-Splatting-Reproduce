@@ -1,6 +1,6 @@
 # 2D-Gaussian-Splatting-Reproduce
 This repository contains the unofficial implementation of the paper ["2D Gaussian Splatting for Geometrically Accurate Radiance Fields"](https://arxiv.org/pdf/2403.17888).
-# Installation
+## Installation
 ### Clone the repository 
 ```
 # SSH
@@ -17,7 +17,7 @@ cd 2D-Gaussian-Splatting-Reproduce
 conda env create --file environment.yml
 conda activate 2dgs
 ```
-### Download dataset 
+## Download dataset 
 Create a folder to store the dataset
 ```
 mkdir datasets
@@ -38,13 +38,13 @@ After downloading the dataset, you should organize your data like this:
     - stump
     - treehill
 ```
-### Training and Evaluation
+## Training and Evaluation
 Run the training and evaluation script
 ```
 # Mip-NeRF 360 dataset
 python run_mipnerf360.py
 ```
-### Results
+## Results
 You will get similar results like this on Mip-NeRF 360 dataset:
 #### Ourdoor
 | Model    | PSNR ↑     | SSIM ↑    | LIPPS ↓|  
