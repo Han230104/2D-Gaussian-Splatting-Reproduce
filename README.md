@@ -6,6 +6,8 @@ This repository contains the unofficial implementation of the paper ["2D Gaussia
    <img src="https://github.com/Han230104/2D-Gaussian-Splatting-Reproduce/blob/master/assets/kitchen-rgb.png?raw=true" width="350" />
 </p>
 
+**Rendered** RGB Image: garden(left), kitchen(right)
+
 ## Installation
 ### Clone the repository 
 ```
