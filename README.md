@@ -45,7 +45,7 @@ After downloading the dataset, you should organize your data like this:
     - flowers
     - garden
     - kitchen
-    - playroom
+    - room
     - stump
     - treehill
 ```
