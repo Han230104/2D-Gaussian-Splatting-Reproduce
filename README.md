@@ -5,6 +5,7 @@ This repository contains the unofficial implementation of the paper ["2D Gaussia
   <img src="https://github.com/Han230104/2D-Gaussian-Splatting-Reproduce/blob/master/assets/garden-rgb.png?raw=true" width="350" />
    <img src="https://github.com/Han230104/2D-Gaussian-Splatting-Reproduce/blob/master/assets/kitchen-rgb.png?raw=true" width="350" />
 </p>
+
 ## Installation
 ### Clone the repository 
 ```
