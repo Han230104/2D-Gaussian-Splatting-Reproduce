@@ -26,6 +26,7 @@ conda env create --file environment.yml
 conda activate 2dgs
 
 pip install GPUtil
+pip install opencv-python
 ```
 ## Download dataset 
 Create a folder to store the dataset
