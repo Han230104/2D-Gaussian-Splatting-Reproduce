@@ -16,6 +16,8 @@ git clone https://github.com/Han230104/2D-Gaussian-Splatting-Reproduce.git
 cd 2D-Gaussian-Splatting-Reproduce
 conda env create --file environment.yml
 conda activate 2dgs
+
+pip install GPUtil
 ```
 ## Download dataset 
 Create a folder to store the dataset
