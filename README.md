@@ -1,5 +1,7 @@
 # 2D-Gaussian-Splatting-Reproduce
 This repository contains the unofficial implementation of the paper ["2D Gaussian Splatting for Geometrically Accurate Radiance Fields"](https://arxiv.org/pdf/2403.17888).
+
+GVL lab, University of Southern California
 ## Overview
 <p float="left">
   <img src="https://github.com/Han230104/2D-Gaussian-Splatting-Reproduce/blob/master/assets/garden-rgb.png?raw=true" width="350" />
