@@ -60,7 +60,7 @@ You will get similar results like this on Mip-NeRF 360 dataset:
 #### Ourdoor
 | Model    | PSNR ↑     | SSIM ↑    | LIPPS ↓|  
 | ------   | ------     | ------    | ------ |  
-| 2DGS     | 24.33      |  0.709    | 0.284  |  
+| 2DGS     | **24.33**      |  0.709    | 0.284  |  
 | Ours     | 24.25      |  **0.711**    | **0.278**  |   
 #### Indoor
 | Model    | PSNR ↑     | SSIM ↑    | LIPPS ↓|  
