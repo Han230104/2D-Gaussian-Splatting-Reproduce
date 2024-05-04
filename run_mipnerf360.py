@@ -10,7 +10,7 @@ scenes = ["bicycle", "bonsai", "counter", "flowers", "garden", "stump", "treehil
 
 excluded_gpus = set([])
 
-dataset_dir = "datasets/NVS"
+dataset_dir = "datasets"
 output_dir = "output"
 
 dry_run = False
@@ -56,7 +56,7 @@ def dispatch_jobs(jobs, executor):
         while available_gpus and jobs:
             gpu = available_gpus.pop(0)
             job = jobs.pop(0)
-            future = executor.submit(worker, gpu, *job)  # Unpacking job as arguments to worker
+            future = executor.submit(worker, gpu, job)  # Unpacking job as arguments to worker
             future_to_job[future] = (gpu, job)
 
             reserved_gpus.add(gpu)  # Reserve this GPU until the job starts processing
