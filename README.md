@@ -61,11 +61,11 @@ You will get similar results like this on Mip-NeRF 360 dataset:
 | Model    | PSNR ↑     | SSIM ↑    | LIPPS ↓|  
 | ------   | ------     | ------    | ------ |  
 | 2DGS     | 24.33      |  0.709    | 0.284  |  
-| Ours     | 24.25      |  0.711    | 0.278  |   
+| Ours     | 24.25      |  **0.711**    | **0.278**  |   
 #### Indoor
 | Model    | PSNR ↑     | SSIM ↑    | LIPPS ↓|  
 | ------   | ------     | ------    | ------ |  
 | 2DGS     | 30.39      |  0.924    | 0.182  |  
-| Ours     | 30.28      |  0.923    | 0.181  |   
+| Ours     | **30.53**      |  **0.925**    | **0.178**  |   
 # Acknowledgements
 This project is built upon [2DGS](https://surfsplatting.github.io/) and [3DGS](https://github.com/graphdeco-inria/gaussian-splatting). We also taken some code from [gaussian-opacity-fields](https://github.com/autonomousvision/gaussian-opacity-fields). We thank all the authors for their great work and repos. 
