@@ -75,6 +75,12 @@ Run the training and evaluation script
 # Mip-NeRF 360 dataset
 python run_mipnerf360.py
 ```
+
+```
+# DTU dataset
+python run_dtu.py
+```
+
 ## Results
 You will get similar results like this on Mip-NeRF 360 dataset:
 #### Ourdoor
