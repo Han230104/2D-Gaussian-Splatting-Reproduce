@@ -52,7 +52,8 @@ After downloading the dataset, you should organize your data like this:
     - treehill
 ```
 #### DTU
-You can download the preprocessed data from [here](https://drive.google.com/drive/folders/1SJFgt8qhQomHX55Q4xSvYE2C6-8tFll9)
+You can download the preprocessed data from [here](https://drive.google.com/drive/folders/1SJFgt8qhQomHX55Q4xSvYE2C6-8tFll9).
+
 You also need to download the ground truth [DTU point cloud](https://roboimagedata.compute.dtu.dk/?page_id=36).
 
 After downloading the dataset, you should organize your data like this:
