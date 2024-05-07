@@ -34,7 +34,7 @@ Create a folder to store the dataset
 ```
 mkdir datasets
 ```
-#### MpiNeRF360
+### MpiNeRF360
 The MipNeRF360 scenes are hosted by the paper authors [here](https://jonbarron.info/mipnerf360/).
 
 After downloading the dataset, you should organize your data like this:
@@ -51,7 +51,7 @@ After downloading the dataset, you should organize your data like this:
     - stump
     - treehill
 ```
-#### DTU
+### DTU
 You can download the preprocessed data from [here](https://drive.google.com/drive/folders/1SJFgt8qhQomHX55Q4xSvYE2C6-8tFll9).
 
 You also need to download the ground truth [DTU point cloud](https://roboimagedata.compute.dtu.dk/?page_id=36).
@@ -82,6 +82,7 @@ python run_dtu.py
 ```
 
 ## Results
+### MpiNeRF360
 You will get similar results like this on Mip-NeRF 360 dataset:
 #### Ourdoor
 | Model    | PSNR ↑     | SSIM ↑    | LIPPS ↓|  
