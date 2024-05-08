@@ -66,7 +66,6 @@ After downloading the dataset, you should organize your data like this:
     - DTU  # official data
       - Points
       - ObsMask
-      - Calibration
 ```
 
 ## Training and Evaluation
