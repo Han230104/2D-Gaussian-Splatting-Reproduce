@@ -94,5 +94,13 @@ You will get similar results like this on Mip-NeRF 360 dataset:
 | ------   | ------     | ------    | ------ |  ------ |
 | 2DGS     | 30.39      |  0.924    | 0.182  |   27.16      |
 | Ours     | **30.53**      |  **0.925**    | **0.178**  | **19.89**  |
+
+### DTU
+
+| Model    | Chamfer distance ↓  |
+| ------   | ------   | 
+| 2DGS     | 0.80     | 
+| Ours     | **0.77** | 
+
 # Acknowledgements
 This project is built upon [2DGS](https://surfsplatting.github.io/) and [3DGS](https://github.com/graphdeco-inria/gaussian-splatting). We also borrow some code from [gaussian-opacity-fields](https://github.com/autonomousvision/gaussian-opacity-fields). We thank all the authors for their great work and repos. 
