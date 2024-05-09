@@ -6,7 +6,8 @@ from concurrent.futures import ThreadPoolExecutor
 import time
 
 scenes = ["bicycle", "bonsai", "counter", "flowers", "garden", "stump", "treehill", "kitchen", "room"]
-
+mipnerf360_outdoor_scenes = ["bicycle", "flowers", "garden", "stump", "treehill"]
+mipnerf360_indoor_scenes = ["room", "counter", "kitchen", "bonsai"]
 
 excluded_gpus = set([])
 
@@ -18,7 +19,8 @@ dry_run = False
 jobs = scenes
 
 def train_scene(gpu, scene):
-    cmd = f"CUDA_LAUNCH_BLOCKING=1 OMP_NUM_THREADS=4 CUDA_VISIBLE_DEVICES={gpu} python train.py -s {dataset_dir}/{scene} -m {output_dir}/{scene} --eval"
+    num = 4 if scene in mipnerf360_outdoor_scenes else 2
+    cmd = f"CUDA_LAUNCH_BLOCKING=1 OMP_NUM_THREADS=4 CUDA_VISIBLE_DEVICES={gpu} python train.py -s {dataset_dir}/{scene} -i images_{num} -m {output_dir}/{scene} --eval"
     print(cmd)
     if not dry_run:
        os.system(cmd)
@@ -79,3 +81,4 @@ def dispatch_jobs(jobs, executor):
 # Using ThreadPoolExecutor to manage the thread pool
 with ThreadPoolExecutor(max_workers=8) as executor:
     dispatch_jobs(jobs, executor)
+
